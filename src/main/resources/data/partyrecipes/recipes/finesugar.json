@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient" : {
-      "item" : "partyrecipes:syrup"
-    },
-    "result": "partyrecipes:finesugar",
-    "experience": 0.2,
-    "cookingtime" : 200
-  }

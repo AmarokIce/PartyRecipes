@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient" : {
-      "item" : "partyrecipes:cappaste"
-    },
-    "result": "partyrecipes:muffin",
-    "experience": 0.2,
-    "cookingtime" : 400
-  }
