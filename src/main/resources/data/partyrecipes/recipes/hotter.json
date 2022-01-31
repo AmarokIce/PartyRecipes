@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "partyrecipes:cap"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:hotter",
+        "count": 4
+      }
+    }

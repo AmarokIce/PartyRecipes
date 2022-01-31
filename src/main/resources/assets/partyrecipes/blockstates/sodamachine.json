@@ -1,0 +1,19 @@
+{
+  "variants": {
+      "facing=north": {
+        "model": "partyrecipes:block/sodamachine",
+        "y": 180
+      },
+      "facing=east": {
+        "model": "partyrecipes:block/sodamachine",
+        "y": 270
+      },
+      "facing=south": {
+        "model": "partyrecipes:block/sodamachine"
+      },
+      "facing=west": {
+        "model": "partyrecipes:block/sodamachine",
+        "y": 90
+    }
+  }
+}

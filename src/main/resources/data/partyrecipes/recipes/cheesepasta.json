@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "vanillarecipe:cheese"
+        },
+        {
+            "item": "partyrecipes:pasta"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:cheesepasta",
+        "count": 1
+      }
+    }

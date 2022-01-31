@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:finesugar"
+        },
+        {
+            "item": "partyrecipes:popo"
+        },
+        {
+            "item": "vanillarecipe:chocolate"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:chocopopo",
+        "count": 1
+      }
+}

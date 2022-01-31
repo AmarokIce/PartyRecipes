@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:cofeflour"
+        },
+        {
+            "item": "partyrecipes:cap"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:coffee",
+        "count": 1
+      }
+    }

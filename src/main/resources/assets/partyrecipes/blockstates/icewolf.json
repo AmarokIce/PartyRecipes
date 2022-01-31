@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "partyrecipes:block/icewolf"
+    },
+    "facing=east": {
+      "model": "partyrecipes:block/icewolf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "partyrecipes:block/icewolf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "partyrecipes:block/icewolf",
+      "y": 270
+    }
+  }
+}

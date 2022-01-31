@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+      "conditions":
+       [
+        {
+    		    "type": "forge:not",
+     		     "value":
+      			   { 
+      				    "type": "forge:mod_loaded", "modid": "vanillarecipe" 
+      			   }
+    		    }
+  		],
+    "pattern": [
+      "CCC",
+      "#S#"
+    ],
+    "key": {
+        "#": 
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        "S":
+        {
+            "item": "minecraft:sugar"
+        },
+        "C":
+        {
+            "item": "partyrecipes:cream"
+        },
+    "result": 
+        {
+            "item": "partyrecipes:creamcheese",
+            "count": 2
+        }
+    }
+}

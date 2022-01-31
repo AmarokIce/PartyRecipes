@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+     [
+      {
+        "item": "partyrecipes:tealeave"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "partyrecipes:cap"
+      }
+    ],
+    "result": {
+      "item": "partyrecipes:tea",
+      "count": 1
+    }
+  }
+  

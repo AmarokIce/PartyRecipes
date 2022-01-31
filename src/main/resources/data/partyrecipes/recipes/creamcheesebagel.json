@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:bagel"
+        },
+        {
+            "item": "partyrecipes:creamcheese"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:creamcheesebagel",
+        "count": 1
+      }
+    }

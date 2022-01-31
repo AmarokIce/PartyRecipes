@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:finesugar"
+        },
+        {
+            "item": "partyrecipes:paste"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:cookies",
+        "count": 4
+      }
+    }

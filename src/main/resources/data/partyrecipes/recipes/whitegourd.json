@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " # ",
+      "#M#",
+      " # "
+    ],
+    "key": {
+        "#": 
+        {
+            "item": "minecraft:snowball"
+        },
+        "M":
+        {
+            "item": "minecraft:melon_slice"
+        }
+    },
+    "result": 
+    {
+        "item": "partyrecipes:whitegourd",
+        "count": 1
+    }
+}

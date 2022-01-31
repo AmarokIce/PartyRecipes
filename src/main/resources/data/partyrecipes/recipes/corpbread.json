@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###"
+    ],
+    "key": {
+        "#": 
+        {
+            "item": "partyrecipes:corpflour"
+        }
+    },
+    "result": 
+    {
+        "item": "partyrecipes:corpbread",
+        "count": 1
+    }
+}
