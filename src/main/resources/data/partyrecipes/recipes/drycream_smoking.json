@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient" : {
+        "item" : "partyrecipes:cream"
+      },
+      "result": "partyrecipes:drycream",
+      "experience": 0.2,
+      "cookingtime" : 100
+    }

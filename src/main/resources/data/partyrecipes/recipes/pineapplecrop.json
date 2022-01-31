@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:pineapple"
+        },
+    ],
+    "result": {
+        "item": "partyrecipes:pineapplecrop",
+        "count": 2
+      }
+    }

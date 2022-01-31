@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:pasta"
+        },
+        {
+            "item": "partyrecipes:tomato"
+        },
+        {
+            "item": "partyrecipes:tomatoso"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:tomatopasta",
+        "count": 1
+      }
+    }

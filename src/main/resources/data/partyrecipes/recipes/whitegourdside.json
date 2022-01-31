@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "F#F",
+      "MFM",
+      "F#F"
+    ],
+    "key": {
+        "#": 
+        {
+            "item": "partyrecipes:finesugar"
+        },
+        "M":
+        {
+            "item": "partyrecipes:whitegourd"
+        },
+        "F":
+        {
+            "item": "partyrecipes:flour"
+        }
+    },
+    "result": 
+    {
+        "item": "partyrecipes:whitegourdside",
+        "count": 4
+    }
+}

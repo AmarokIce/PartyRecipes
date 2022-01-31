@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:corpersugar"
+        },
+        {
+            "item": "partyrecipes:corpersugar"
+        },
+        {
+            "item": "partyrecipes:corpcrop"
+        },
+        {
+            "item": "partyrecipes:corpcrop"
+        },
+        {
+        	"item": "partyrecipes:drycream"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:popover",
+        "count": 1
+      }
+    }

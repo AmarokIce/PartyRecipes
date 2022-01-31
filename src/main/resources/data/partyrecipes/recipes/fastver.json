@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vanillarecipe:seedsoup"
+    },
+    {
+      "item": "vanillarecipe:vegetablesalad"
+    },
+    {
+      "item": "partyrecipes:hotter"
+    }
+  ],
+  "result": {
+    "item": "partyrecipes:fastver"
+  }
+}

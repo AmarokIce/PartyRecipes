@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions":
+    [
+     {
+             "type": "forge:not",
+               "value":
+                  { 
+                       "type": "forge:mod_loaded", "modid": "vanillarecipe" 
+                  }
+             }
+       ],
+    "pattern": [
+      " S ",
+      "AAA",
+      " C "
+    ],
+    "key": {
+        "S": 
+        {
+            "item": "minecraft:sugar"
+        },
+        "A":
+        {
+            "item": "minecraft:dye"
+        },
+        "C":
+        {
+            "item": "partyrecipes:cap"
+        }
+    },
+    "result": {
+        "item": "partyrecipes:sodachoco",
+        "count": 1
+      }
+    }

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "# #",
+      " C "
+    ],
+    "key": {
+        "#": 
+        {
+            "item": "minecraft:paper"
+        },
+        "C":
+        {
+            "item": "partyrecipes:cap"
+        }
+    },
+    "result": 
+    {
+        "item": "partyrecipes:copp",
+        "count": 2
+    }
+}

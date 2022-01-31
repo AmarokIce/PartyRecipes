@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:finesugar"
+        },
+        {
+            "item": "partyrecipes:finesugar"
+        },
+        {
+            "item": "partyrecipes:finesugar"
+        },
+        {
+            "item": "partyrecipes:thinstick"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:marshmallow",
+        "count": 2
+      }
+    }

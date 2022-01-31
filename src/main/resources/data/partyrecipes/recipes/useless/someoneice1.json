@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions":
+  [
+    { "type": "forge:not",
+      "value":
+      { "type": "forge:mod_loaded", "modid": "vanillarecipe" }
+    }
+  ],
+  "ingredients":
+  [
+    {
+      "item": "withcake:soda"
+    },
+    {
+      "item": "withcake:soda"
+    }
+  ],
+  "result": {
+    "item": "withcake:someoneice",
+    "count": 4
+  }
+}

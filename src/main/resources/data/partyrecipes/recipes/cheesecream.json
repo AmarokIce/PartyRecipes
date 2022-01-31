@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "vanillarecipe:cheese"
+        },
+        {
+            "item": "vanillarecipe:icecream"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:cheesecream",
+        "count": 1
+      }
+    }

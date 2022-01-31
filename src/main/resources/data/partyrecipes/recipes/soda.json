@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "item": "partyrecipes:plantash"
+        },
+        {
+            "item": "partyrecipes:plantash"
+        },
+        {
+            "item": "partyrecipes:plantash"
+        }
+    ],
+    "result": 
+    {
+        "item": "partyrecipes:soda",
+        "count": 2
+      
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "vanillarecipe:chocolate"
+    },
+    {
+      "item": "vanillarecipe:chocolate"
+    }
+  ],
+  "result": {
+    "item": "withcake:someoneice",
+    "count": 4
+  }
+}

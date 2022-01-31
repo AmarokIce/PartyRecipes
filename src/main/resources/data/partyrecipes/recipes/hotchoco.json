@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "vanillarecipe:chocolate"
+        },
+        {
+            "item": "partyrecipes:cap"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:hotchoco",
+        "count": 1
+    }
+}

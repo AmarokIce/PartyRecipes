@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:paste"
+        },
+        {
+            "item": "partyrecipes:paste"
+        },
+        {
+            "item": "partyrecipes:paste"
+        },
+        {
+            "item": "minecraft:bowl"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:pasta",
+        "count": 1
+      }
+    }

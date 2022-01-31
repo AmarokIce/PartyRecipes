@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "minecraft:flint"
+        },
+        {
+            "item": "partyrecipes:corp"
+        },
+        {
+            "item": "partyrecipes:corp"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:corpflour",
+        "count": 1
+      }
+    }

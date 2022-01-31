@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:fishes"
+    },
+    {
+      "tag": "forge:fishes"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "vanillarecipe:cook_carrots"
+    }
+  ],
+  "result": {
+    "item": "partyrecipes:fishcake"
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ZSZ",
+      "#C#",
+      " L "
+    ],
+    "key": {
+        "#": 
+        {
+            "item": "partyrecipes:findsugar"
+        },
+        "S":
+        {
+            "item": "partyrecipes:capsoda"
+        },
+        "C":
+        {
+            "item": "partyrecipes:sweetsoda"
+        },
+        "Z":
+        {
+            "item": "partyrecipes:icecube"
+        },
+        "L":
+        {
+            "item": "partyrecipes:can"
+        }
+    },
+    "result": 
+    {
+        "item": "partyrecipes:jssoda",
+        "count": 1
+    }
+}

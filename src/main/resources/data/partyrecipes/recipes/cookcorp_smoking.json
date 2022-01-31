@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient" : {
+        "item" : "partyrecipes:corp"
+      },
+      "result": "partyrecipes:cookcorp",
+      "experience": 0.2,
+      "cookingtime" : 200
+    }

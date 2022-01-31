@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " # ",
+      "# #",
+      " # "
+    ],
+    "key": {
+        "#": 
+        {
+            "item": "partyrecipes:paste"
+        }
+    },
+    "result": 
+    {
+        "item": "partyrecipes:bagel",
+        "count": 1
+    }
+}

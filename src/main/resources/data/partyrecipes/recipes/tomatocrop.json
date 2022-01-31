@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:tomato"
+        },
+    ],
+    "result": {
+        "item": "partyrecipes:tomatocrop",
+        "count": 2
+      }
+    }

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": 
+    [
+        {
+            "item": "partyrecipes:finesugar"
+        },
+        {
+            "item": "partyrecipes:finesugar"
+        },
+        {
+            "item": "partyrecipes:cream"
+        },
+        {
+            "item": "partyrecipes:salt"
+        }
+    ],
+    "result": {
+        "item": "partyrecipes:corpersugar",
+        "count": 1
+      }
+    }
