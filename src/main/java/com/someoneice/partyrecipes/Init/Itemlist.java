@@ -2,6 +2,7 @@ package com.someoneice.partyrecipes.Init;
 
 import com.someoneice.partyrecipes.FoodItem.Food.Else.SpicyStrip;
 import com.someoneice.partyrecipes.FoodItem.Item.Syrup;
+import com.someoneice.partyrecipes.MissingNo.MissingNo;
 import com.someoneice.partyrecipes.partyrecipes;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
@@ -26,5 +27,12 @@ public class Itemlist {
         Item.Properties Properties = new Item.Properties();
         FoodProperties.Builder Builder = new FoodProperties.Builder();
         return new Syrup(Properties);
+    }
+
+    public static Item MissingNo(){
+        Item.Properties Properties = new Item.Properties();
+        Properties.tab(partyrecipes.TAB);
+        FoodProperties.Builder Builder = new FoodProperties.Builder();
+        return new MissingNo(Properties);
     }
 }

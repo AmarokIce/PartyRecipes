@@ -3,13 +3,13 @@
     "ingredients": 
     [
         {
-            "item": "partyrecipes:finesugar"
+            "item": "partyrecipes:findsugar"
         },
         {
-            "item": "partyrecipes:finesugar"
+            "item": "partyrecipes:findsugar"
         },
         {
-            "item": "partyrecipes:finesugar"
+            "item": "partyrecipes:findsugar"
         },
         {
             "item": "partyrecipes:thinstick"
@@ -17,6 +17,6 @@
     ],
     "result": {
         "item": "partyrecipes:marshmallow",
-        "count": 2
+        "count": 1
       }
     }

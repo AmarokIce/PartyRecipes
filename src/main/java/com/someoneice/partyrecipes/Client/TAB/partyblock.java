@@ -8,7 +8,7 @@ public class partyblock extends CreativeModeTab {
     public static final partyblock BK = new partyblock();
 
     public partyblock() {
-        super("houseparty");
+        super("partyblock");
     }
 
     @Override

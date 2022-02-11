@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PIP",
+    "NPN"
+  ],
+  "key": {
+    "P":
+    {
+      "item": "minecraft:planks"
+    },
+    "I":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "N":
+    {
+      "item": "partyrecipes:nail"
+    }
+  },
+  "result": {
+    "block": "partyrecipes:soodamachine",
+    "count": 1
+  }
+}

@@ -6,6 +6,8 @@ import com.someoneice.partyrecipes.FoodItem.Food.YearParty.TJP;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 
+//import static com.someoneice.partyrecipes.Init.ItemRegistry.CTJP;
+
 public class YPFood {
     public static Item food(int nutrition, float saturation, boolean isMeat, boolean fastFood, boolean alwaysEat) {
         Item.Properties Properties = new Item.Properties();

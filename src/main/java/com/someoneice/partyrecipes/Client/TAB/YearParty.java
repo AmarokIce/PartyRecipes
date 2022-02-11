@@ -8,12 +8,12 @@ public class YearParty extends CreativeModeTab {
     public static final YearParty YP = new YearParty();
 
     public YearParty() {
-        super("year_party");
+        super("yearparty");
     }
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(ItemRegistry.wolf_sweet.get());
+        return new ItemStack(ItemRegistry.pineapple.get());
     }
 
 }

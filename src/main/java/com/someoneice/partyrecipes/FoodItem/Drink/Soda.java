@@ -1,7 +1,7 @@
 package com.someoneice.partyrecipes.FoodItem.Drink;
 
-import com.someoneice.partyrecipes.Client.TAB.houseparty;
 import com.someoneice.partyrecipes.Init.ItemRegistry;
+import com.someoneice.partyrecipes.partyrecipes;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
@@ -21,7 +21,7 @@ public class Soda extends Item {
     private static final FoodProperties food = ((new FoodProperties.Builder()).saturationMod(3).nutrition(0).fast().alwaysEat().build());
 
     public Soda(Properties properties) {
-        super(new Item.Properties().tab(houseparty.HP).food(food));
+        super(new Item.Properties().tab(partyrecipes.TAB).food(food));
     }
 
     @Override

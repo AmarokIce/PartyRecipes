@@ -5,12 +5,9 @@ import com.someoneice.partyrecipes.partyrecipes;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 
@@ -27,15 +24,5 @@ public class Syrup extends Drink {
     @Override
     public void appendHoverText(ItemStack items, @Nullable Level world, List<Component> list, TooltipFlag data) {
         list.add(new TranslatableComponent("info.syrup.food").withStyle(ChatFormatting.GRAY));
-    }
-
-    @Override
-    public ItemStack finishUsingItem(ItemStack item, Level LV, LivingEntity player) {
-        if (player instanceof Player) {
-            if (((Player) player).getInventory().add(new ItemStack(Items.BOWL)) == false) {
-                ((Player) player).drop(new ItemStack(Items.BOWL), false);
-            }
-        }
-        return super.finishUsingItem(item, LV, player);
     }
 }

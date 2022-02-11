@@ -3,7 +3,7 @@
     "ingredient" : {
       "item" : "partyrecipes:syrup"
     },
-    "result": "partyrecipes:findsugar",
+    "result": "partyrecipes:finesugar",
     "experience": 0.2,
     "cookingtime" : 200
   }

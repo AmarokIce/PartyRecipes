@@ -34,9 +34,9 @@ public class BlockRegistry {
     public static final RegistryObject<Block> redbeans = register(Blocklist.Corps(Material.PLANT), "redbeans");
 
     // Pizza
-    public static final RegistryObject<Block> CheesePizza = register(Blocklist.pizza(Material.WOOL), "cheese_pizza");
+    public static final RegistryObject<Block> CheesePizza = register(Blocklist.pizza(Material.WOOL), "cheesepizza");
 
-    public static final RegistryObject<Block> BeefPizza = register(Blocklist.pizza(Material.WOOL), "beef_pizza");
+    public static final RegistryObject<Block> BeefPizza = register(Blocklist.pizza(Material.WOOL), "beefpizza");
 
     //public static final RegistryObject<Block> cakesoda = register(Blocklist.Cakesoda(), "cakesoda");
 

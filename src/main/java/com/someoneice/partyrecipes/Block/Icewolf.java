@@ -6,7 +6,10 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.projectile.Snowball;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
@@ -70,5 +73,26 @@ public class Icewolf extends Block {
         world.playSound((Player) null, pos, SoundEvents.WOLF_HOWL, SoundSource.BLOCKS, 1.0F, 1.0F + world.random.nextFloat()*0.3F);
 
         return InteractionResult.SUCCESS;
+    }
+
+    public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
+        var item = player.getItemInHand(hand);
+
+        world.playSound(player,
+                player.getX(), player.getY(), player.getZ(), SoundEvents.SNOWBALL_THROW,
+                SoundSource.NEUTRAL, 0.5F, 0.4F / (world.getRandom().nextFloat() * 0.4F + 0.8F));
+
+        if (!world.isClientSide()) {
+            var ballEntity = new Snowball(world, player);
+            ballEntity.setItem(item);
+            ballEntity.shootFromRotation(player, player.getXRot(), player.getYRot(), 0.0F, 1.5F, 1.0F);
+            world.addFreshEntity(ballEntity);
+        }
+
+        if (!player.isCreative()) {
+            item.shrink(1);
+        }
+
+        return InteractionResultHolder.success(item);
     }
 }
