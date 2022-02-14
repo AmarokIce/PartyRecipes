@@ -4,7 +4,7 @@
     "itemGroup.dinnerparty" : "派对食谱:晚餐派对",
     "itemGroup.dailyparty" : "派对食谱:假日派对",
     "itemGroup.partyblock" : "派对食谱:方块与种子",
-    "itmeGroup.yearparty" : "派对食谱：年味化",
+    "itemGroup.yearparty" : "派对食谱：年味化",
 
     "block.partyrecipes.icewolf" : "§5初雪·冰",
     "block.partyrecipes.cmlgj" : "§e草莓龙果酱",
@@ -17,7 +17,7 @@
     "block.partyrecipes.peppercrop" : "灯笼椒种子",
     "block.partyrecipes.beancrop" : "豆子",
     "block.partyrecipes.rice" : "米",
-    "block.partyrecipes.readbeans" : "红豆",
+    "block.partyrecipes.redbeans" : "红豆",
     "block.partyrecipes.peanut" : "花生",
 
     "item.partyrecipes.can" : "罐子",
@@ -152,7 +152,7 @@
     "info.pasta.food" : "确实很棒，但是也别吃太多了，如果吃吐了是不会退钱给你的。",
     "info.soda.food" : "从海草的草木灰清洗后得到的纯碱物质。",
     "info.TJP.tj" : "这只鸡上涂满了泥巴，现在可以放进熔炉烘焙了。",
-    "info.CTJP.tj" : "泥巴烤的干硬，把泥敲开，切开肉就可以吃了。",
+    "info.CTJP.tj" : "泥巴烤的干硬，但是还需要把泥敲开。切开肉就可以吃了。",
     
     "info.sy.food" : "死神辣椒。"
 }
